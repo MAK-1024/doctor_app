@@ -1,19 +1,10 @@
+import 'package:doctor_app/core/routing/app_router.dart';
 import 'package:flutter/material.dart';
 
+import 'doctorApp.dart';
+
 void main() {
-  runApp(const MyApp());
+  runApp(DoctorApp(
+    appRouter: AppRouter(),
+  ));
 }
-
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: const MyApp(),
-    );
-  }
-}
-
-
