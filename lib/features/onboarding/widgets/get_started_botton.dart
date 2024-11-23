@@ -11,6 +11,7 @@ class GetStartedButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TextButton(
+
         onPressed: () {
 
           context.pushNamed(Routes.loginScreen);
