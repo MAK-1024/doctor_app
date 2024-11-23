@@ -2,7 +2,8 @@
 class Assets {
   Assets._();
 
-  static const String imagesImage = 'assets/images/onboarding_doctor.png';
+  static const String imagesOnboardingDoctor = 'assets/images/onboarding_doctor.png';
+  static const String imagesSplash = 'assets/images/Splash.png';
   static const String svgsDocLogo = 'assets/svgs/doc_logo.svg';
   static const String svgsDocLogoLowOp = 'assets/svgs/doc_logo_low_op.svg';
 
